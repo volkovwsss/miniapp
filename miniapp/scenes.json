@@ -1,0 +1,27 @@
+{
+  "start": {
+    "image": "https://i.imgur.com/ZlQkU0T.jpeg",
+    "text": "Ти прокидаєшся у темному лісі. Що будеш робити?",
+    "choices": [
+      { "text": "Піти направо", "next": "right_path" },
+      { "text": "Піти наліво", "next": "left_path" }
+    ]
+  },
+  "right_path": {
+    "image": "https://i.imgur.com/sfKkF56.jpeg",
+    "text": "Ти натрапляєш на покинутий табір.",
+    "choices": [
+      { "text": "Оглянути намет", "next": "tent" }
+    ]
+  },
+  "left_path": {
+    "image": "https://i.imgur.com/VqxgIXS.jpeg",
+    "text": "Ти потрапляєш у пастку. Гру завершено.",
+    "choices": []
+  },
+  "tent": {
+    "image": "https://i.imgur.com/mRf8Ez1.jpeg",
+    "text": "У наметі ти знаходиш карту. Продовження незабаром...",
+    "choices": []
+  }
+}
